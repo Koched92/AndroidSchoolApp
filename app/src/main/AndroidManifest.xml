@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.realtimeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VideoLayout"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"
+            ></activity>
+        <activity android:name=".PDFLayoutExo" />
+        <activity android:name=".ChoixParentEtudiantInscri" />
+        <activity android:name=".Testpushgetextra" />
+        <activity android:name=".PDFLayout" />
+        <activity android:name=".OptionsCours" />
+        <activity android:name=".SvtM" />
+        <activity android:name=".PhysiqueM" />
+        <activity android:name=".MathM" />
+        <activity android:name=".HistoireM" />
+        <activity android:name=".GeographieM" />
+        <activity android:name=".FrancaisM" />
+        <activity android:name=".ChimieM" />
+        <activity android:name=".AnglaisM" />
+        <activity android:name=".StudentListModules" />
+        <activity android:name=".testretirieveCOurse" />
+        <activity android:name=".MainActivityVisitor" />
+        <activity android:name=".StudentCoursActivity" />
+        <activity android:name=".StudentSignInActivity" />
+        <activity android:name=".StudentListView" />
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".StudentList" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".ParentSignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

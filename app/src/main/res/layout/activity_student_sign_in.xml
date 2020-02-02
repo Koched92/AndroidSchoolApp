@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck11"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/student_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="#F5F5F5"
+        android:textColorLink="#0C0C0C"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="Mot de Passe"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="#F5F5F5"
+        android:textColorLink="#0C0C0C"/>
+
+    <Button
+        android:id="@+id/BtnSLogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Connexion"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/button_rounded1"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/Forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mot de Passe oublié ? Cliquez ici "
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/BtnSLogin"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/BtnReg"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Créer un compte"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Forgot"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/button_rounded22"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

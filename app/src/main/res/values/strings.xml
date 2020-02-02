@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RealTimeApp</string>
+    <array name="levels">
+        <item>Terminal</item>
+        <item>6eme</item>
+        <item>5eme</item>
+        <item>4eme</item>
+        <item>3eme</item>
+        <item>2nde</item>
+        <item>1ere</item>
+    </array>
+</resources>
